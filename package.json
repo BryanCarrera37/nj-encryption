@@ -9,7 +9,7 @@
     "remove:test:files": "rm -r dist/tests",
     "move:src": "mv dist/src/** dist/ && rm -r dist/src",
     "build": "rm -rf dist && tsc && npm run copy:files && npm run remove:test:files && npm run move:src",
-    "publish": "cd dist/ && yarn publish --access public",
+    "publish:npm": "yarn --cwd ./dist/ publish --access public",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage"
