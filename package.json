@@ -1,6 +1,6 @@
 {
   "name": "@bryancm/nj-encryption",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a library that can be used in Node.js projects when you need to include encryption (bcrypt) and also to handle encode and decode operations in different ways (base64, binary, hexadecimal, etc)",
   "main": "index.js",
   "scripts": {
