@@ -18,7 +18,9 @@
     "package",
     "development",
     "encryption",
-    "encrypt"
+    "encrypt",
+    "decode",
+    "encode"
   ],
   "repository": {
     "type": "git",
